@@ -404,7 +404,7 @@ nav {
 
 // 關於
 #about {
-    background-image: url(./img/photoshop1.jpg);
+    background-image: url(./img/mywork.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
@@ -417,7 +417,7 @@ nav {
         height: 80vh;
         margin-top: 20px;
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.35);
 
         @media screen and (max-width: $tablet) {
             height: 90vh;
@@ -435,7 +435,7 @@ nav {
             font-size: 48px;
             width: 100%;
             text-align: center;
-            padding: 10px;
+            padding: 30px;
             color: $color-black;
 
             @media screen and (max-width: $tablet) {

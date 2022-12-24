@@ -575,7 +575,7 @@ nav #social a img {
 }
 
 #about {
-  background-image: url(./img/photoshop1.jpg);
+  background-image: url(./img/mywork.jpg);
   background-size: cover;
   background-attachment: fixed;
   margin: 0 auto;
@@ -587,7 +587,7 @@ nav #social a img {
   height: 80vh;
   margin-top: 20px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 @media screen and (max-width: 1024px) {
   #about .big_box {
@@ -608,7 +608,7 @@ nav #social a img {
   font-size: 48px;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   color: #252525;
 }
 @media screen and (max-width: 1024px) {

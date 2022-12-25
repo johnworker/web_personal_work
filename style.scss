@@ -213,13 +213,14 @@ nav {
             transition: 0.4s;
             padding: 0 10px;
 
-            &:hover {
-                filter: invert(92%) sepia(63%) saturate(7384%) hue-rotate(291deg) brightness(103%) contrast(103%);
-            }
-
             img {
                 width: 20px;
                 vertical-align: -25px; //上下對齊
+
+                &:hover {
+                    filter: invert(92%) sepia(63%) saturate(7384%) hue-rotate(291deg) brightness(103%) contrast(103%);
+                }
+    
             }
         }
     }

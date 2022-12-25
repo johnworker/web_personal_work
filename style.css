@@ -1206,8 +1206,8 @@ section .boxing p {
 
 section .boxing .box_magic:nth-child(odd) {
       grid-template-areas: "pic text";
-  -ms-grid-columns: 60% 40%;
-      grid-template-columns: 60% 40%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 @media screen and (max-width: 1024px) {

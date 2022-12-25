@@ -836,7 +836,7 @@ section {
 
         .box_magic:nth-child(odd) {
             grid-template-areas: "pic text";
-            grid-template-columns: 60% 40%;
+            grid-template-columns: 50% 50%;
 
             @media screen and (max-width: $tablet) {
                 grid-template-columns: 1fr;

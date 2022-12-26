@@ -756,7 +756,7 @@ section {
         .box_magic {
             display: grid;
             grid-template-columns: 60% 40%;
-            grid-gap: 80px;
+            grid-gap: 15px;
             margin-bottom: 100px;
 
             @media screen and (max-width: $tablet) {
@@ -776,7 +776,7 @@ section {
         
         img {
             width: 450px;
-            height: 600px;
+            height: 450px;
             object-fit: cover;
             margin: 0 100px;
             
@@ -795,7 +795,7 @@ section {
 
         .text_box {
             margin: 0;
-            padding-right: 30%;
+            padding: 210px 60px 0;
             display: block;
             width: 100%;
 
@@ -848,7 +848,7 @@ section {
         }
         .box_magic:nth-child(odd) .text_box {
             grid-area: text;
-            padding: 0 100px;
+            padding: 220px 100px 0;
 
             @media screen and (max-width: $mobile) {
                 padding: 0 30px;

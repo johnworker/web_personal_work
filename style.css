@@ -1043,61 +1043,85 @@ section .boxing .box_magic:nth-child(even) .text_box {
   }
 }
 
-#list {
-  padding: 100px 0 0;
+#contactme {
+  height: 40vh;
+}
+#contactme .title-big {
+  margin: 20px;
+  text-align: center;
 }
 
-form {
-  width: 1280px;
+.box_info {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 20px;
+}
+.box_info .contact_box_text {
+  height: 100%;
+  padding-top: 20px;
+}
+.box_info .contact_box_text .studio article {
+  margin-top: 100px;
+}
+.box_info form {
+  width: 700px;
   margin: 0 auto;
   padding: 20px 0 100px;
+  float: right;
 }
 @media screen and (max-width: 1024px) {
-  form {
+  .box_info form {
     width: 100%;
     padding: 20px 20px 100px;
   }
 }
-form input {
-  width: 47%;
-  padding: 10px;
+.box_info form input {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 5px;
 }
 @media screen and (max-width: 1024px) {
-  form input {
+  .box_info form input {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-form input::-moz-placeholder {
+.box_info form input::-moz-placeholder {
   color: #999;
   font-size: 14px;
 }
-form input:-ms-input-placeholder {
+.box_info form input:-ms-input-placeholder {
   color: #999;
   font-size: 14px;
 }
-form input::placeholder {
+.box_info form input::placeholder {
   color: #999;
   font-size: 14px;
 }
-form input[type=email] {
-  float: right;
+.box_info form input[type=email] {
+  float: left;
 }
-form textarea {
+.box_info form textarea {
   width: 100%;
-  height: 300px;
-  margin: 30px 0;
+  height: 100px;
+  margin: 5px 0;
   padding: 10px;
 }
-form textarea::-moz-placeholder {
+.box_info form textarea::-moz-placeholder {
   color: #999;
   font-size: 14px;
 }
-form textarea:-ms-input-placeholder {
+.box_info form textarea:-ms-input-placeholder {
   color: #999;
   font-size: 14px;
 }
-form textarea::placeholder {
+.box_info form textarea::placeholder {
   color: #999;
   font-size: 14px;
+}
+.box_info form .btn {
+  border: 1px solid #252525;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
 }/*# sourceMappingURL=style.css.map */

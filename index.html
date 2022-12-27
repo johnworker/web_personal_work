@@ -123,33 +123,54 @@
         </div>
     </section>
 
-    <section>
-        <h2 id="list" class="title-big" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">聯絡我</h2>
+    <section id="contactme">
+        <h2 class="title-big" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">CONTACT</h2>
+        <div class="box_info">
+        <div class="contact_box_text">
+            <span class="studio article">
+                <span>
+                    <span class="ch_title">飛耀未來工作室</span><br>
+                    <span class="en_title">FLY  FUTURE  STUDIO</span>
+                </span>
+                <br><br>
+                <span class="detail">歡迎使用 Email 聯繫的方式，<br>
+                    我們收到後將會儘快與您聯絡，謝謝您。
+                </span>
+            </span>
+            <br><br>
+            <span class="contacts">
+                營業時間 ｜ 09:00 ~ 18:00 (週休二日)
+                <br>
+                Tel. 0958-186-708
+                <br>
+                flyfuturetime@gmail.com
+            </span>
+        </div>
         <!-- 表單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
         <!-- 要設定 input type="submit" 表單資料才會傳到後端-->
-        <!-- 方法：傳送資料的方式 -->
-        <!-- GET 曝光表單資料 -->
-        <!-- POST 不會曝光表單資料 -->
         <form action="get.Massage.php" method="POST">
-            <input type="text" name="user-name" placeholder="請輸入您的姓名" required>
-            <input type="email" name="user-email" placeholder="請輸入您的信箱" required>
+            <input type="text" name="user-name" placeholder="聯絡人" required="required"><br>
+            <input type="email" name="user-email" placeholder="信箱" required="required"><br>
+            <input type="phone" name="user-phone" placeholder="電話"><br>
+            <input type="title" name="user-email" placeholder="標題"><br>
             <textarea placeholder="輸入你想對Darkness說的話"></textarea>
             <input type="submit" value="送出" class="btn">
-        </form></section>
+        </form>
+    </div>
+    </section>
 
     <!-- 頁尾 -->
     <footer>
         <div>
-            <a href=""><img class="logo_pic" src="./img/fly_dream.png" alt="logo_footer"></a>
+            <a href=""><img class="logo_pic_footer" src="./img/fly_dream.png" alt="logo_footer"></a>
         </div>
         <small id="copy">
             &copy; Darkness 2021.
         </small>
         <div id="link">
-            <a href="./rice.html">美食簡介</a>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html">聯絡方式</a>
+            <a href="./rice.html">ABOUT</a>
+            <a href="./recommend.html">WORK</a>
+            <a href="./game.html">PROCESS</a>
         </div>
     </footer>
 

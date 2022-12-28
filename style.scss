@@ -193,7 +193,7 @@ nav {
             vertical-align: 25px;
 
             &:hover {
-                color: $color-gray;
+                color: pink;
                 transform: scale(1.05);
             }
         }
@@ -873,9 +873,11 @@ section {
     .contact_box_text {
         height: 100%;
         padding-top: 20px;
+        line-height: 2.1;
 
         .studio article {
             margin-top: 100px;
+            display: block;
         }
     }
 

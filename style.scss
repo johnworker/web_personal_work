@@ -594,47 +594,6 @@ nav {
     }
 }
 
-// 最新遊戲
-#work {
-    width: 1280px;
-    margin: 0 auto;
-
-    // 溢出：隱藏
-    overflow: hidden;
-
-    @media screen and (max-width: $tablet) {
-        width: 100%;
-    }
-
-    &:focus {
-        outline: none;
-    }
-
-    img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        /* border-radius: 50%; 寬高要相同(圓形) */
-        border-radius: 50%;
-        display: block;
-        /* 顯示模式：區塊 */
-        margin: 0 auto;
-        /* 區塊元素 block 才能margin:0 auto; */
-        transition: 0.5s;
-        box-shadow: $fashion-shadow;
-
-        &:hover {
-            border-radius: 20px;
-        }
-    }
-
-    h3 {
-        text-align: center;
-        margin-top: 30px;
-        color: $color-black;
-    }
-}
-
 // 聯絡LEO
 #list {
     padding: 100px 0 0;
@@ -857,82 +816,10 @@ section {
     }
 }
 
-// 聯絡我們
-#contactme {
-    height: 50vh;
+// 關於我們
 
-    .title-big {
-        margin: 20px;
-        text-align: center;
-    }
-}
-
-.box_info {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 20px;
-
-    .contact_box_text {
-        height: 100%;
-        padding: 20px 0 0 150px;
-        line-height: 2.1;
-
-        .studio article {
-            margin-top: 100px;
-            display: block;
-        }
-    }
-
-    form {
-        width: 700px;
-        margin: 0 auto;
-        padding: 20px 0 100px;
-        float: right;
-
-        @media screen and (max-width: $tablet) {
-            width: 100%;
-            padding: 20px 20px 100px;
-        }
-
-        input {
-            width: 100%;
-            padding: 3px;
-            margin-bottom: 5px;
-
-            @media screen and (max-width: $tablet) {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-
-            &::placeholder {
-                color: $color-gray;
-                font-size: 14px;
-            }
-        }
-
-        input[type="email"] {
-            float: left;
-        }
-
-        textarea {
-            width: 100%;
-            height: 100px;
-            margin: 5px 0;
-            padding: 10px;
-
-            &::placeholder {
-                color: $color-gray;
-                font-size: 14px;
-            }
-        }
-
-        .btn {
-            border: 1px solid #252525;
-            color: #212529;
-            text-align: center;
-            vertical-align: middle;
-            width: 10%;
-            float: right;
-        }
-    }
+.title {
+    margin-top: 180px;
+    text-align: center;
+    display: block;
 }

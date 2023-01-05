@@ -22,16 +22,16 @@
     <!-- . 跟此檔案相同資料夾內的其他檔案 -->
     <!-- .. 在此檔案上一層資料夾內的其他檔案 -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8P8VER0LG8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8P8VER0LG8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-8P8VER0LG8');
-</script>
+        gtag('config', 'G-8P8VER0LG8');
+    </script>
 
-<meta name="google-site-verification" content="6NNHAyzslowOZx_wXi6K7FRlzaqn-tVHoS--OV4QEEc" />
+    <meta name="google-site-verification" content="6NNHAyzslowOZx_wXi6K7FRlzaqn-tVHoS--OV4QEEc" />
 </head>
 
 <body>
@@ -41,7 +41,7 @@
             <div class="mini-link-box">
                 <ul class="mini-link">
                     <li>
-                        <img class="logo_pic" src="./img/fly_dream.png" alt="logo">
+                        <a href="./index.html"><img class="logo_pic" src="./img/fly_dream.png" alt="logo"></a>
                     </li>
                     <li>
                         <a href="./recommend.html">ABOUT</a>
@@ -49,25 +49,21 @@
                     <li>
                         <a href="./game.html">WORK</a>
                     </li>
-                    <li>
-                        <a href="./contact.html" data-st-target="list" data-st-duration="1000"
-                            data-st-offset="100">PROCESS</a>
-                    </li>
                 </ul>
             </div>
         </div>
         <div>
-            <img class="logo_pic" src="./img/fly_logo_name.png" alt="logo">
+            <a href="./index.html"><img class="logo_pic" src="./img/fly_logo_name.png" alt="logo"></a>
         </div>
         <div id="link">
             <a href="./recommend.html">ABOUT</a>
             <a href="./game.html">WORK</a>
-            <a href="./contact.html" data-st-target="list" data-st-duration="1000" data-st-offset="100">PROCESS</a>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png"
+                    alt="instagram"></a>
             <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png"
                     alt="facebook"></a>
             <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
@@ -83,17 +79,17 @@
         </div>
     </section>
 
-     <!-- 區塊內容介紹 -->
-     <section>
+    <!-- 區塊內容介紹 -->
+    <section>
         <div class="boxing">
             <div class="box_magic">
                 <div class="image_box">
                     <img src="./img/rice2.jpg" alt="滷肉飯">
                 </div>
                 <div class="text_box">
-                    <h4>海報、菜單、手冊</h4>
+                    <h4>名片、海報、賀卡</h4>
                     <p>整合創意海報、商用菜單、
-                        手冊設計作品。<br>
+                        賀卡設計作品。<br>
                     </p>
                 </div>
             </div>
@@ -126,37 +122,37 @@
     <section id="contactme">
         <h2 class="title-big" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">CONTACT</h2>
         <div class="box_info">
-        <div class="contact_box_text">
-            <span class="studio article">
-                <span>
-                    <span class="ch_title">飛耀未來工作室</span><br>
-                    <span class="en_title">FLY  FUTURE  STUDIO</span>
+            <div class="contact_box_text">
+                <span class="studio article">
+                    <span>
+                        <span class="ch_title">飛耀未來工作室</span><br>
+                        <span class="en_title">FLY FUTURE STUDIO</span>
+                    </span>
+                    <br><br>
+                    <span class="detail">歡迎使用 Email 聯繫的方式，<br>
+                        我們收到後將會儘快與您聯絡，謝謝您。
+                    </span>
                 </span>
                 <br><br>
-                <span class="detail">歡迎使用 Email 聯繫的方式，<br>
-                    我們收到後將會儘快與您聯絡，謝謝您。
+                <span class="contacts">
+                    營業時間 ｜ 09:00 ~ 18:00 (週休二日)
+                    <br>
+                    Tel. 0958-186-708
+                    <br>
+                    flyfuturetime@gmail.com
                 </span>
-            </span>
-            <br><br>
-            <span class="contacts">
-                營業時間 ｜ 09:00 ~ 18:00 (週休二日)
-                <br>
-                Tel. 0958-186-708
-                <br>
-                flyfuturetime@gmail.com
-            </span>
+            </div>
+            <!-- 表單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
+            <!-- 要設定 input type="submit" 表單資料才會傳到後端-->
+            <form action="get.Massage.php" method="POST">
+                <input type="text" name="user-name" placeholder="聯絡人" required="required"><br>
+                <input type="email" name="user-email" placeholder="信箱" required="required"><br>
+                <input type="phone" name="user-phone" placeholder="電話"><br>
+                <input type="title" name="user-email" placeholder="標題"><br>
+                <textarea placeholder="輸入你想對Darkness說的話"></textarea>
+                <input type="submit" value="送出" class="btn">
+            </form>
         </div>
-        <!-- 表單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
-        <!-- 要設定 input type="submit" 表單資料才會傳到後端-->
-        <form action="get.Massage.php" method="POST">
-            <input type="text" name="user-name" placeholder="聯絡人" required="required"><br>
-            <input type="email" name="user-email" placeholder="信箱" required="required"><br>
-            <input type="phone" name="user-phone" placeholder="電話"><br>
-            <input type="title" name="user-email" placeholder="標題"><br>
-            <textarea placeholder="輸入你想對Darkness說的話"></textarea>
-            <input type="submit" value="送出" class="btn">
-        </form>
-    </div>
     </section>
 
     <!-- 頁尾 -->
@@ -170,7 +166,6 @@
         <div id="link">
             <a href="./rice.html">ABOUT</a>
             <a href="./recommend.html">WORK</a>
-            <a href="./game.html">PROCESS</a>
         </div>
     </footer>
 

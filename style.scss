@@ -677,7 +677,7 @@ footer {
 }
 
 // 區塊內容介紹
-section {
+#introduce {
     width: 1280px;
     height: 100%;
     margin: 100px auto;
@@ -817,7 +817,11 @@ section {
 }
 
 // 關於我們
-
+.about {
+    width: 1280px;
+    height: 100%;
+    margin: 10px auto;
+}
 .title {
     margin-top: 180px;
     text-align: center;

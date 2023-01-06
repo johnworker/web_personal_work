@@ -961,3 +961,65 @@ footer {
 
 // 個人介紹區
 
+#meinfo {
+    width: 1280px;
+    height: 100%;
+    margin: 150px auto;
+
+    img {
+        width: 500px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+    }
+
+    .myname {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    p {
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+#myportfolio {
+    width: 1280px;
+    height: 100%;
+    margin: 250px auto;
+
+    .title {
+        margin: 180px 0 40px;
+        text-align: center;
+        display: block;
+    }
+
+    .work_big_box {
+        width: 1280px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;    
+
+
+        .work_box {
+            width: 100%;
+
+            .work_pic {
+                width: 1280px;
+                
+                a {
+                    font-size: 18px;
+
+                    img {
+                        width: 300px;
+                    }
+                }
+            }
+
+            .text_box {
+                padding: 70px;
+            }
+        }
+    }
+}

@@ -1000,7 +1000,7 @@ footer {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;    
-
+        grid-gap: 20px;
 
         .work_box {
             width: 100%;
@@ -1012,13 +1012,24 @@ footer {
                     font-size: 18px;
 
                     img {
-                        width: 300px;
+                        width: 330px;
                     }
                 }
             }
 
             .text_box {
                 padding: 70px;
+
+                .work_title {
+                    font-size: 18px;
+                    text-align: center;
+                    display: block;
+                }
+
+                .work_category {
+                    display: block;
+                    text-align: center;
+                }
             }
         }
     }

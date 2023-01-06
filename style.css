@@ -1187,6 +1187,7 @@ footer #copy {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 20px;
 }
 #myportfolio .work_big_box .work_box {
   width: 100%;
@@ -1198,8 +1199,17 @@ footer #copy {
   font-size: 18px;
 }
 #myportfolio .work_big_box .work_box .work_pic a img {
-  width: 300px;
+  width: 330px;
 }
 #myportfolio .work_big_box .work_box .text_box {
   padding: 70px;
+}
+#myportfolio .work_big_box .work_box .text_box .work_title {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+#myportfolio .work_big_box .work_box .text_box .work_category {
+  display: block;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

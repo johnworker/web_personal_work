@@ -1009,6 +1009,200 @@ footer #copy {
   }
 }
 
+#contactme {
+  width: 1280px;
+  height: 100%;
+  margin: 150px auto;
+}
+#contactme .title {
+  margin: 180px 0 40px;
+  text-align: center;
+  display: block;
+}
+#contactme .box_info {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px;
+}
+#contactme .box_info .contact_box_text {
+  padding: 20px 50px;
+}
+#contactme .box_info .image_box {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+#contactme .box_info img {
+  width: 450px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 100px;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info img {
+    margin: 0 290px;
+  }
+}
+@media screen and (max-width: 960px) {
+  #contactme .box_info img {
+    margin: 0 160px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #contactme .box_info img {
+    margin: 0 auto;
+  }
+}
+#contactme .box_info .text_box {
+  margin: 0;
+  padding: 210px 60px 0;
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info .text_box {
+    margin: 0 auto;
+  }
+}
+#contactme .box_info h4 {
+  text-align: center;
+  padding: 20px 10px 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info h4 {
+    font-size: 40px;
+  }
+}
+#contactme .box_info p {
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 2.5;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info p {
+    width: 100%;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #contactme .box_info p {
+    font-size: 24px;
+    line-height: 2;
+  }
+}
+#contactme .box_info .box_magic:nth-child(odd) {
+  grid-template-areas: "pic text";
+  grid-template-columns: 50% 50%;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info .box_magic:nth-child(odd) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+#contactme .box_info .box_magic:nth-child(odd) .image_box {
+  grid-area: pic;
+}
+#contactme .box_info .box_magic:nth-child(odd) .text_box {
+  grid-area: text;
+  padding: 220px 100px 0;
+}
+@media screen and (max-width: 767px) {
+  #contactme .box_info .box_magic:nth-child(odd) .text_box {
+    padding: 0 30px;
+  }
+}
+#contactme .box_info .box_magic:nth-child(even) {
+  grid-template-areas: "text pic";
+  grid-template-columns: 40% 60%;
+  margin-left: 15%;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info .box_magic:nth-child(even) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+#contactme .box_info .box_magic:nth-child(even) .image_box {
+  grid-area: pic;
+}
+#contactme .box_info .box_magic:nth-child(even) .text_box {
+  grid-area: text;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info .box_magic:nth-child(even) .text_box {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #contactme .box_info .box_magic:nth-child(even) .text_box {
+    padding: 0 30px;
+  }
+}
+#contactme .box_info #list {
+  padding: 100px 0 0;
+}
+#contactme .box_info form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 100px;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info form {
+    width: 100%;
+    padding: 20px 20px 100px;
+  }
+}
+#contactme .box_info form input {
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (max-width: 1024px) {
+  #contactme .box_info form input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+#contactme .box_info form input::-moz-placeholder {
+  color: #999;
+  font-size: 14px;
+}
+#contactme .box_info form input:-ms-input-placeholder {
+  color: #999;
+  font-size: 14px;
+}
+#contactme .box_info form input::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+#contactme .box_info form input[type=email] {
+  float: right;
+}
+#contactme .box_info form textarea {
+  width: 100%;
+  height: 300px;
+  margin: 30px 0;
+  padding: 10px;
+}
+#contactme .box_info form textarea::-moz-placeholder {
+  color: #999;
+  font-size: 14px;
+}
+#contactme .box_info form textarea:-ms-input-placeholder {
+  color: #999;
+  font-size: 14px;
+}
+#contactme .box_info form textarea::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
 #aboutmes {
   width: 1280px;
   height: 100%;

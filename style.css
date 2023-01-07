@@ -1161,7 +1161,8 @@ footer #copy {
 }
 #contactme .box_info form input {
   width: 100%;
-  padding: 10px;
+  padding: 3px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 1024px) {
   #contactme .box_info form input {
@@ -1186,8 +1187,8 @@ footer #copy {
 }
 #contactme .box_info form textarea {
   width: 100%;
-  height: 300px;
-  margin: 30px 0;
+  height: 80px;
+  margin: 0;
   padding: 10px;
 }
 #contactme .box_info form textarea::-moz-placeholder {
@@ -1201,6 +1202,11 @@ footer #copy {
 #contactme .box_info form textarea::placeholder {
   color: #999;
   font-size: 14px;
+}
+#contactme .box_info form .btn {
+  border: 1px solid black;
+  width: 10%;
+  float: right;
 }
 
 #aboutmes {
@@ -1394,6 +1400,9 @@ footer #copy {
 }
 #myportfolio .work_big_box .work_box .work_pic a img {
   width: 330px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #myportfolio .work_big_box .work_box .text_box {
   padding: 70px;

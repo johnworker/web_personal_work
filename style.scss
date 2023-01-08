@@ -676,6 +676,18 @@ footer {
     }
 }
 
+// 置頂按鈕
+#arrow {
+    background-image: url(./img/arrow.png);
+    position: fixed;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
 // 區塊內容介紹
 #introduce {
     width: 1280px;
@@ -838,6 +850,7 @@ footer {
 
         .contact_box_text {
             padding: 20px 50px;
+            line-height: 2;
         }
 
         .image_box {
@@ -1213,8 +1226,18 @@ footer {
             .text_box {
                 padding: 70px;
 
+                a {
+                    color: #000;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: pink;
+                    }
+                }
+
                 .work_title {
-                    font-size: 18px;
+                    font-size: 26px;
+                    font-weight: 900;
                     text-align: center;
                     display: block;
                 }

@@ -1435,4 +1435,9 @@ footer #copy {
 #myportfolio .work_big_box .work_box .text_box .work_category {
   display: block;
   text-align: center;
+}
+
+.myroom {
+  -o-object-position: -230px;
+     object-position: -230px;
 }/*# sourceMappingURL=style.css.map */
